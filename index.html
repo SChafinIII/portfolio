@@ -11,7 +11,7 @@
   <a href="#home" class="active">Home</a>
   <a href="#about">About</a>
   <a href="#contact">Contact</a>
-  <a href="#updates">Updates</a>
+  <a href="#work">History</a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
   </a>
@@ -28,15 +28,102 @@
 
 <!--Create about me section-->  
 <div class="about-section">
-  <h1>About Us Page</h1>
-  <p>Some text about who we are and what we do.</p>
+  <h1>About Me Page</h1>
+  <p>Some text about who I am and what I do along with my work experience.</p>
   <p>Resize the browser window to see that this page is responsive.</p>
 </div>
 
-<footer>
-  <p>License Name - December 2022</p>
+<!--Create Cards for major projects that should be highlighted-->
+<h2 style="text-align:center">Notable Work</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="image link" alt="Project 1 image" style="width:100%">
+      <div class="container">
+        <h2>Project 1</h2>
+        <p class="title">Prework Study Guide</p>
+        <p>Some text that describes the project.</p>
+        <p>Additional info</p>
+        <p><button class="button">View</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="image link" alt="Project 2 image" style="width:100%">
+      <div class="container">
+        <h2>Project 2</h2>
+        <p class="title">Project 2 Name</p>
+        <p>Some text that describes the project.</p>
+        <p>Additional info</p>
+        <p><button class="button">View</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="image link" alt="Project 3 image" style="width:100%">
+      <div class="container">
+        <h2>Project 3</h2>
+        <p class="title">Project 3 Name</p>
+        <p>Some text that describes describes the project.</p>
+        <p>Additional info</p>
+        <p><button class="button">View</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="image link" alt="Project 4 image" style="width:100%">
+      <div class="container">
+        <h2>Project 3</h2>
+        <p class="title">Project 4 Name</p>
+        <p>Some text that describes describes the project.</p>
+        <p>Additional info</p>
+        <p><button class="button">View</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Create contact form. Currently non-functional.-->
+<div class="container">
+  <div style="text-align:center">
+    <h2>Contact Me</h2>
+    <p>Polite introduction to contact</p>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="contact image" alt="Welcoming reference image" style="width:100%">
+    </div>
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="usa">USA</option>
+          <option value="canada">Canada</option>
+          <option value="australia">Australia</option>
+        </select>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+  
+  <div class="footer">
+    <p>License Name - December 2022</p>
+  </div>
+ 
   <script src="css\script.js"></script>
-</footer>
 
   </body>
 </html>
