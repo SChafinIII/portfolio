@@ -9,6 +9,10 @@ This is a web development portfolio showcasing the skills and projects of the de
 - Contact section with email address. 
 - Footer with links to media accounts such as github. 
 
+
+## Product View 
+![Screenshot](./css/portfolio.png)
+
 ## Technologies Used
 - HTML
 - CSS
@@ -22,4 +26,4 @@ This is a web development portfolio showcasing the skills and projects of the de
 This project was developed by Steven Chafin.
 
 ## License 
-This project is licensed under the MIT License.
+Licensed under the [MIT](https://opensource.org/licenses/MIT) license.
