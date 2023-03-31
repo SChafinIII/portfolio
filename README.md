@@ -1,5 +1,25 @@
 # Portfolio
- To be rewritten. 
+This is a web development portfolio showcasing the skills and projects of the developer, Steven Chafin.
 
-## Deployed Example of Template
-https://schafiniii.github.io/portfolio/
+## Features
+- Responsive layout that adjusts to different screen sizes
+- Navigation bar with links to different sections of the portfolio
+- Sections for about, skills, projects, and contact information
+- Projects section with cards displaying project titles, descriptions, and links to GitHub repositories
+- Contact section with email address. 
+- Footer with links to media accounts such as github. 
+
+## Technologies Used
+- HTML
+- CSS
+- Bootstrap 5
+
+## How to Use
+1. Open the [Portfolio](https://schafiniii.github.io/portfolio/) in your web browser. 
+2. Navigate the different sections of the portfolio using the navigation bar. 
+
+## Credits
+This project was developed by Steven Chafin.
+
+## License 
+This project is licensed under the MIT License.
